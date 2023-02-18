@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    body{
+        background-color: #111;
+        display: flex;
+        i{
+            color: white;
+            font-size: 30px;
+            cursor: pointer;
+            
+        }
+        .hide{
+            display: none;
+        }
+        ul{
+            position: absolute;
+            
+            background-color: white;
+            width: 30vw;
+            height: 100vh;
+            left: -350px;
+
+            li{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 30px;
+                padding: 10px 30px;
+                list-style: none;
+                cursor: pointer;
+            }
+        }
+    }
+}
